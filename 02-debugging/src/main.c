@@ -20,7 +20,7 @@ int strlen(char *str) {
  * @param str pointer to the string to print
  */
 void puts(char *str) {
-    if (str == NULL) {
+    if (!str) {
         printf("NULL pointer!\n");
         return;
     }
